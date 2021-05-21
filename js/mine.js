@@ -1,0 +1,1 @@
+$("#pjax-container > aside > section.widget.blogger.shadow.desktop.mobile > div > a > img").src = "https://cdn.jsdelivr.net/gh/lismiler/cdn/png/avatar.png";
