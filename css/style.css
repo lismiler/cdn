@@ -3565,7 +3565,7 @@ article#tag .all-tags ul li span:before {
 }
 
 .article code {
-    font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif
+    font-family:  Menlo, Monaco, monospace, sans-serif
 }
 
 .article code:not([class]) {
@@ -3629,6 +3629,40 @@ article#tag .all-tags ul li span:before {
 .article .widget.list .content,
 .article .widget.related_posts .content {
     padding: 0 .6em !important
+}
+
+.fad.fa-fw:before, .fad.fa-stack-1x:before, .fad.fa-stack-2x:before {
+    left: 50%;
+    /* -webkit-transform: translateX(-50%); */
+    transform: translateX(-50%);
+}
+
+.fad {
+    position: relative;
+    font-family: "Font Awesome 5 Duotone";
+    font-weight: 900;
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+
+.fad:before {
+    position: absolute;
+    color: var(--fa-primary-color,inherit);
+    opacity: 1;
+    opacity: var(--fa-primary-opacity,1);
+}
+
+
+.fa-list:before {
+    content: "\f03a";
 }
 
 .article .widget.list .content a,
