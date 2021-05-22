@@ -1,4 +1,4 @@
 # cdn
 Pictures
 
-https://cdn.jsdelivr.net/gh/lismiler/cdn/avatar.jpg
+https://cdn.jsdelivr.net/gh/lisyfun/cdn/avatar.jpg
